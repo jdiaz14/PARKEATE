@@ -1,0 +1,252 @@
+/* Estilos para el logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #eee;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00c3ff;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.login-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background-color: #636363;
+}
+
+/* Estilos para el botón de registro */
+.register-button {
+    background-color: #00c3ff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.register-button:hover {
+    background-color: #636363;
+}
+
+/* Estilos para la sección hero */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+/* Estilos para el texto dentro de la sección hero */
+.hero-text {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Estilos para el botón de llamado a la acción */
+.cta-button {
+    background-color: #1E90FF;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+    color: #1E90FF;
+    cursor: pointer;
+}
+
+.hero-image {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.service-image {
+    float: left;
+    margin-right: 20px;
+    /* para agregar un espacio entre la imagen y el texto */
+}
+
+.service-text {
+    overflow: hidden;
+    /* para limpiar el float */
+}
+
+.service-image img {
+    width: 200%;
+    /* para que la imagen ocupe todo el ancho del contenedor */
+    max-width: 400px;
+    /* para limitar el tamaño máximo de la imagen */
+    height: auto;
+    /* para que la altura se ajuste proporcionalmente al ancho */
+    border: 2px solid #ccc;
+    /* para agregar un borde de 2px color gris claro */
+    border-radius: 10px;
+    /* para agregar un borde redondeado de 10px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* para agregar una sombra */
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.service-image {
+    flex: 0 0 auto;
+    /* para que la imagen no se estire */
+    margin-right: 100px;
+    /* para agregar un espacio entre la imagen y el texto */
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.service-text {
+    flex: 1;
+    /* para que el texto ocupe todo el espacio restante */
+}
+
+.service-text {
+    font-size: 20px;
+    /* para definir el tamaño de la fuente */
+    font-weight: bold;
+    /* para hacerla negrita */
+    color: #333;
+    /* para definir el color de texto */
+    text-align: justify;
+    /* para justificar el texto */
+    line-height: 1.5;
+    /* para definir la altura de línea */
+    padding: 20px;
+    /* para agregar un espacio interno de 20px */
+    margin-top: 50px;
+}
+
+
+
+.site-footer {
+    background-color: #222;
+    padding: 60px 0 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+    
+  }
+  
+  .site-footer h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    
+  }
+  
+  .site-footer p {
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  
+  .site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  .site-footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .site-footer .social {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .site-footer .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
+  .site-footer .social a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .site-footer .text-center {
+    text-align: center;
+  }
+
+  .social {
+    float: right;
+    margin-left: 400px;
+    position: relative;
+    bottom: 20px;
+    left: -80px;
+  }
+  
+  .site-footer {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+    
+  }
+  
+  
